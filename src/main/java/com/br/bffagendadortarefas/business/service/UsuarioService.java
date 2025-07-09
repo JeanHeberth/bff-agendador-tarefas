@@ -1,10 +1,10 @@
 package com.br.bffagendadortarefas.business.service;
 
+import com.br.bffagendadortarefas.business.dto.in.EnderecoDTORequest;
+import com.br.bffagendadortarefas.business.dto.in.LoginDTORequest;
 import com.br.bffagendadortarefas.business.dto.in.UsuarioDTORequest;
-import com.br.bffagendadortarefas.business.service.dto.in.EnderecoDTORequest;
-import com.br.bffagendadortarefas.business.service.dto.in.LoginDTORequest;
-import com.br.bffagendadortarefas.business.service.dto.in.TelefoneDTORequest;
-import com.br.bffagendadortarefas.business.service.dto.out.UsuarioDTOResponse;
+import com.br.bffagendadortarefas.business.dto.out.UsuarioDTOResponse;
+import com.br.bffagendadortarefas.business.dto.in.TelefoneDTORequest;
 import com.br.bffagendadortarefas.infrastructure.client.UsuarioClient;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

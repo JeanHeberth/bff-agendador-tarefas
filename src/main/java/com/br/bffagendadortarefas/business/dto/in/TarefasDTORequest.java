@@ -1,6 +1,5 @@
-package com.br.bffagendadortarefas.business.service.dto.in;
+package com.br.bffagendadortarefas.business.dto.in;
 
-import com.br.bffagendadortarefas.business.service.enums.StatusNotificacaoEnum;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.*;
 
