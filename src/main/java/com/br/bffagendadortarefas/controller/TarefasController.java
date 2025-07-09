@@ -48,11 +48,11 @@ public class TarefasController {
     }
 
     @GetMapping()
-    @Operation(summary = "Busca tarefas agendadas", description = "Busca tarefas por email")
+    @Operation(summary = "Busca tarefas por email", description = "Busca tarefas por email")
     @ApiResponse(responseCode = "200", description = "Tarefas encontradas com sucesso")
     @ApiResponse(responseCode = "404", description = "Tarefas nao encontradas")
     @ApiResponse(responseCode = "500", description = "Erro de servidor")
-    public ResponseEntity<List<TarefasDTO>> buscarTarefasPorEmail(@RequestHeader("Authorization") String token) {
+    public ResponseEntity<List<TarefasDTO>> buscarTarefasPorEmail(@RequestHeader(name ="Authorization", required = false) String token) {
         List<TarefasDTO> tarefas = tarefaService.buscarTarefasPorEmail(token);
         return ResponseEntity.ok(tarefas);
     }
