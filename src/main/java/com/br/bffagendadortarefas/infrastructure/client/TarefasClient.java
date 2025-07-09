@@ -1,7 +1,7 @@
 package com.br.bffagendadortarefas.infrastructure.client;
 
 import com.br.bffagendadortarefas.business.service.dto.TarefasDTO;
-import com.br.bffagendadortarefas.infrastructure.enums.StatusNotificacaoEnum;
+import com.br.bffagendadortarefas.business.service.enums.StatusNotificacaoEnum;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.web.bind.annotation.*;
