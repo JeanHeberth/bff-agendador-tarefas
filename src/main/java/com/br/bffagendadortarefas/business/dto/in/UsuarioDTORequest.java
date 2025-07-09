@@ -1,6 +1,6 @@
-package com.br.bffagendadortarefas.business.service.dto.in;
-
-
+package com.br.bffagendadortarefas.business.dto.in;
+import com.br.bffagendadortarefas.business.service.dto.in.EnderecoDTORequest;
+import com.br.bffagendadortarefas.business.service.dto.in.TelefoneDTORequest;
 import lombok.*;
 
 import java.util.List;
