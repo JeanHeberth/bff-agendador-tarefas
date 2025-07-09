@@ -8,6 +8,7 @@ class BffAgendadorTarefasApplicationTests {
 
     @Test
     void contextLoads() {
-    }
 
+    }
 }
+
