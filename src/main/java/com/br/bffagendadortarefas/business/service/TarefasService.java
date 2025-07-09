@@ -3,7 +3,7 @@ package com.br.bffagendadortarefas.business.service;
 
 import com.br.bffagendadortarefas.business.service.dto.TarefasDTO;
 import com.br.bffagendadortarefas.infrastructure.client.TarefasClient;
-import com.br.bffagendadortarefas.infrastructure.enums.StatusNotificacaoEnum;
+import com.br.bffagendadortarefas.business.service.enums.StatusNotificacaoEnum;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
