@@ -1,6 +1,4 @@
 package com.br.bffagendadortarefas.business.dto.out;
-import com.br.bffagendadortarefas.business.service.dto.out.EnderecoDTOResponse;
-import com.br.bffagendadortarefas.business.service.dto.out.TelefoneDTOResponse;
 
 import lombok.*;
 

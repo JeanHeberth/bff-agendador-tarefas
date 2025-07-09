@@ -1,4 +1,4 @@
-package com.br.bffagendadortarefas.business.service.dto.in;
+package com.br.bffagendadortarefas.business.dto.in;
 
 import lombok.*;
 

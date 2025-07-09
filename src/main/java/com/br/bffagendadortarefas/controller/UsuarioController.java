@@ -1,11 +1,11 @@
 package com.br.bffagendadortarefas.controller;
 
+import com.br.bffagendadortarefas.business.dto.in.EnderecoDTORequest;
+import com.br.bffagendadortarefas.business.dto.in.LoginDTORequest;
+import com.br.bffagendadortarefas.business.dto.in.UsuarioDTORequest;
+import com.br.bffagendadortarefas.business.dto.out.UsuarioDTOResponse;
 import com.br.bffagendadortarefas.business.service.UsuarioService;
-import com.br.bffagendadortarefas.business.service.dto.in.EnderecoDTORequest;
-import com.br.bffagendadortarefas.business.service.dto.in.LoginDTORequest;
-import com.br.bffagendadortarefas.business.service.dto.in.TelefoneDTORequest;
-import com.br.bffagendadortarefas.business.service.dto.in.UsuarioDTORequest;
-import com.br.bffagendadortarefas.business.service.dto.out.UsuarioDTOResponse;
+import com.br.bffagendadortarefas.business.dto.in.TelefoneDTORequest;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.tags.Tag;
