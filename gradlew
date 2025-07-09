@@ -75,7 +75,7 @@ while
     [ -h "$app_path" ]
 do
     ls=$( ls -ld "$app_path" )
-    link=${ls#*' -> '}
+    link=${ls#*' - '}
     case $link in             #(
       /*)   app_path=$link ;; #(
       *)    app_path=$APP_HOME$link ;;
@@ -86,21 +86,21 @@ done
 # shellcheck disable=SC2034
 APP_BASE_NAME=${0##*/}
 # Discard cd standard output in case $CDPATH is set (https://github.com/gradle/gradle/issues/25036)
-APP_HOME=$( cd -P "${APP_HOME:-./}" > /dev/null && printf '%s\n' "$PWD" ) || exit
+APP_HOME=$( cd -P "${APP_HOME:-./}"  /dev/null && printf '%s\n' "$PWD" ) || exit
 
 # Use the maximum available, or set MAX_FD != -1 to use that value.
 MAX_FD=maximum
 
-warn () {
+warn ();
     echo "$*"
-} >&2
+} &2
 
-die () {
+die ();
     echo
     echo "$*"
     echo
     exit 1
-} >&2
+} &2
 
 # OS specific support (must be 'true' or 'false').
 cygwin=false
@@ -133,7 +133,7 @@ location of your Java installation."
     fi
 else
     JAVACMD=java
-    if ! command -v java >/dev/null 2>&1
+    if ! command -v java /dev/null 2&1
     then
         die "ERROR: JAVA_HOME is not set and no 'java' command could be found in your PATH.
 
@@ -217,7 +217,7 @@ set -- \
         "$@"
 
 # Stop when "xargs" is not available.
-if ! command -v xargs >/dev/null 2>&1
+if ! command -v xargs /dev/null 2&1
 then
     die "xargs is not available"
 fi
