@@ -1,4 +1,4 @@
-package com.br.bffagendadortarefas.business.service.dto.in;
+package com.br.bffagendadortarefas.business.dto.in;
 
 import lombok.*;
 
@@ -10,7 +10,6 @@ import lombok.*;
 
 public class TelefoneDTORequest {
 
-    private Long id;
     private String numero;
     private String ddd;
 }

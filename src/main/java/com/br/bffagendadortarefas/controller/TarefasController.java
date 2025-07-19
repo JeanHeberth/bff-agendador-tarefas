@@ -1,9 +1,9 @@
 package com.br.bffagendadortarefas.controller;
 
+import com.br.bffagendadortarefas.business.dto.in.TarefasDTORequest;
 import com.br.bffagendadortarefas.business.service.TarefasService;
-import com.br.bffagendadortarefas.business.service.dto.in.TarefasDTORequest;
-import com.br.bffagendadortarefas.business.service.dto.out.TarefasDTOResponse;
-import com.br.bffagendadortarefas.business.service.enums.StatusNotificacaoEnum;
+import com.br.bffagendadortarefas.business.dto.out.TarefasDTOResponse;
+import com.br.bffagendadortarefas.business.enums.StatusNotificacaoEnum;
 import com.br.bffagendadortarefas.infrastructure.security.SecurityConfig;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;

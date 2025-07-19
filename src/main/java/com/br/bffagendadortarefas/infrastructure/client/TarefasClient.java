@@ -1,8 +1,8 @@
 package com.br.bffagendadortarefas.infrastructure.client;
 
-import com.br.bffagendadortarefas.business.service.dto.in.TarefasDTORequest;
-import com.br.bffagendadortarefas.business.service.dto.out.TarefasDTOResponse;
-import com.br.bffagendadortarefas.business.service.enums.StatusNotificacaoEnum;
+import com.br.bffagendadortarefas.business.dto.in.TarefasDTORequest;
+import com.br.bffagendadortarefas.business.dto.out.TarefasDTOResponse;
+import com.br.bffagendadortarefas.business.enums.StatusNotificacaoEnum;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.web.bind.annotation.*;

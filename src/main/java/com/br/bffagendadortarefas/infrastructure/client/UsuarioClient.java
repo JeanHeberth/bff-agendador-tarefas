@@ -1,10 +1,10 @@
 package com.br.bffagendadortarefas.infrastructure.client;
 
-import com.br.bffagendadortarefas.business.service.dto.in.EnderecoDTORequest;
-import com.br.bffagendadortarefas.business.service.dto.in.LoginDTORequest;
-import com.br.bffagendadortarefas.business.service.dto.in.TelefoneDTORequest;
-import com.br.bffagendadortarefas.business.service.dto.in.UsuarioDTORequest;
-import com.br.bffagendadortarefas.business.service.dto.out.UsuarioDTOResponse;
+import com.br.bffagendadortarefas.business.dto.in.EnderecoDTORequest;
+import com.br.bffagendadortarefas.business.dto.in.LoginDTORequest;
+import com.br.bffagendadortarefas.business.dto.in.UsuarioDTORequest;
+import com.br.bffagendadortarefas.business.dto.out.UsuarioDTOResponse;
+import com.br.bffagendadortarefas.business.dto.in.TelefoneDTORequest;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.*;
 
@@ -14,7 +14,7 @@ public interface UsuarioClient {
 
     @GetMapping("/usuario")
     UsuarioDTOResponse buscarPorEmail(@RequestParam("email") String email,
-                                     @RequestHeader("Authorization") String token);
+                                      @RequestHeader("Authorization") String token);
 
 
     @PostMapping
